@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(../assets/bg-image.png);
+    background-image: url(bg-image.png);
     background-size: cover;
     text-align: center;
 }
@@ -137,4 +137,5 @@ h1 {
 #startBtn:disabled {
     background-color: #b2b2b2;
     cursor: not-allowed;
+
 }
