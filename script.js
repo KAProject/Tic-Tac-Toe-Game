@@ -1,5 +1,5 @@
 let boxes = document.querySelectorAll(".box");
-const clickSound = new Audio("../assets/mechanical-click.mp3");
+const clickSound = new Audio("mechanical-click.mp3");
 let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-btn");
 let msgContainer = document.querySelector(".msg-container");
@@ -148,4 +148,5 @@ startBtn.addEventListener("click", startGame);
 
 // Disable boxes and hide game until game starts
 disableBoxes();
+
 gameDiv.classList.add("hide");
